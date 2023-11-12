@@ -166,39 +166,6 @@ export default function HomeScreen() {
                     </View>
                 </View>
             </View>
-
-            {/* <View style={{ bottom: 10, right: 40, left: 40, position: 'absolute' }}>
-                <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                    <View
-                        style={{
-                            alignItems: 'center',
-                            gap: 5,
-                        }}>
-                        <Home variant="Bold" size={30} color="#00AA13" />
-                        <Text style={{ color: '#444648', fontSize: 12, fontWeight: 600 }}>
-                            Beranda
-                        </Text>
-                    </View>
-                    <View style={{ alignItems: 'center', gap: 5 }}>
-                        <DiscountShape variant="Bold" size={30} color="#444648" />
-                        <Text style={{ color: '#444648', fontSize: 12, fontWeight: 400 }}>
-                            Promo
-                        </Text>
-                    </View>
-                    <View style={{ alignItems: 'center', gap: 5 }}>
-                        <ClipboardText variant="Bold" size={30} color="#444648" />
-                        <Text style={{ color: '#444648', fontSize: 12, fontWeight: 400 }}>
-                            Pesanan
-                        </Text>
-                    </View>
-                    <View style={{ alignItems: 'center', gap: 5 }}>
-                        <MessageText1 variant="Bold" size={30} color="#444648" />
-                        <Text style={{ color: '#444648', fontSize: 12, fontWeight: 400 }}>
-                            Chat
-                        </Text>
-                    </View>
-                </View>
-            </View> */}
         </View>
     );
 }

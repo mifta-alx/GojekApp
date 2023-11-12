@@ -2,6 +2,9 @@ import React from 'react';
 import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/HomeScreen';
+import ChatScreen from '../screens/ChatScreen';
+import PromoScreen from '../screens/PromoScreen';
+import OrderScreen from '../screens/OrderScreen';
 import { Home, DiscountShape, MessageText1, ClipboardText } from 'iconsax-react-native';
 
 const Tab = createBottomTabNavigator();
@@ -43,7 +46,7 @@ function MainApp() {
             />
             <Tab.Screen
                 name="Promos"
-                component={HomeScreen}
+                component={PromoScreen}
                 options={{
                     tabBarLabel: 'Promo',
                     tabBarIcon: ({ color }) => (
@@ -58,7 +61,7 @@ function MainApp() {
             />
             <Tab.Screen
                 name="Orders"
-                component={HomeScreen}
+                component={OrderScreen}
                 options={{
                     tabBarLabel: 'Pesanan',
                     tabBarIcon: ({ color }) => (
@@ -73,7 +76,7 @@ function MainApp() {
             />
             <Tab.Screen
                 name="Chat"
-                component={HomeScreen}
+                component={ChatScreen}
                 options={{
                     tabBarLabel: 'Chat',
                     tabBarIcon: ({ color }) => (
